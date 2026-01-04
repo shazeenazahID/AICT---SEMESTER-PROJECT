@@ -34,4 +34,69 @@
 .navbar a:hover {
   color: #c07a44;
 }
+/*  HERO */
+
+.hero {
+  width: 100vw;                    
+  margin-left: calc(-50vw + 50%);  
+  position: relative;
+  overflow: hidden;
+  margin-top: 0;                   
+  margin-bottom: 0;
+  padding: 0;
+}
+
+
+.hero-image {
+  width: 100%;
+  height: auto;                    
+  display: block;
+  object-fit: cover;               
+}
+
+.hero {
+  height: 90vh;
+  display: flex;
+  align-items: center;      /* vertical center */
+  justify-content: center;  /* horizontal center */
+  text-align: center;       /* text center */
+  background-image: url("your-image.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 0%;
+}
+
+.hero-content {
+  max-width: 600px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 15px; /* reduces gap */
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.btn {
+  background: #6b3f1d;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+.btn.outline {
+  background: transparent;
+  border: 2px solid #6b3f1d;
+  color: #6b3f1d;
+}
 
